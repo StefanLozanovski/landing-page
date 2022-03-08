@@ -4,4 +4,34 @@ html {
 
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: coral;
+    padding: 0 300px 80px;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    padding: 10px 0 0; 
+    gap: 30px;
+}
+
+nav a:nth-child(2) {
+    margin-left: auto; 
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+.header-content {
+    display: flex;
 }
