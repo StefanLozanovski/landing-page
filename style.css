@@ -9,8 +9,8 @@ html {
 }
 
 header {
-    background-color: coral;
-    padding: 0 300px 80px;
+    background-color: #A0937D;
+    padding: 0 300px;
 }
 
 nav {
@@ -32,6 +32,53 @@ nav a:hover {
     color: blueviolet;
 }
 
-.header-content {
+.header-container {
     display: flex;
+    align-items: center;
+    border: solid;
+}
+
+.header-container div {
+    height: 600px;
+    width: 400px;
+    background-color: khaki;
+}
+
+.img-placeholder {
+    border: solid blueviolet;
+}
+
+body h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.illustration-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 300px;
+    border: solid;
+}
+
+.illustration-container div {
+    height: 160px;
+    width: 160px;
+    border: solid;
+}
+
+.quote {
+    background-color: cadetblue;
+    padding: 0 300px;
+    float: left;
+}
+
+.banner {
+    background-color: blue;
+    margin: 100px 300px;
+}
+
+footer {
+    background-color: coral;
+    padding: 0 300px;
+    float: left;
 }
