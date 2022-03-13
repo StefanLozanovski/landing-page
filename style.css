@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 html {
     box-sizing: border-box;
 }
@@ -12,7 +14,7 @@ header {
     display: inline-block;
     height: 450px;
     width: 100%;
-    background-color: #9e9b97;
+    background-color: #1F2937;
     padding: 0 300px;
 }
 
@@ -29,10 +31,14 @@ nav a:nth-child(2) {
 
 nav a {
     text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #D0D4DD;
 }
 
 nav a:hover {
-    color: blueviolet;
+    color: #9DACCA;
 }
 
 .header-container {
@@ -51,17 +57,46 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 950;
+    color: #F9FAF8;
+}
+
+.header-text p {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #D0D4DD;
+}
+
+.header-text button {
+    background-color: #3882F6;
+    border: #3882F6 solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 25px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #F9FAF8;
 }
 
 .header-image {
-    background-color: #f0b86f;
+    background-color: #85807A;
     text-align: center;
     line-height: 260px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #F9FAF8;
 }
 
 body h2 {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 950;
+    color: #1F2937;
 }
 
 .illustration-placeholders{
@@ -73,7 +108,8 @@ body h2 {
 .illustration-placeholders div {
     height: 160px;
     width: 160px;
-    border: solid;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
 }
 
 .illustration-subtext {
@@ -81,41 +117,79 @@ body h2 {
     justify-content: center;
     gap: 50px;
     margin-bottom: 80px;
-    border: solid palevioletred;
 }
 
 .illustration-subtext p {
     width: 160px;
     padding: 5px 0;
     text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #85807A;
 }
 
 .quote {
-    background-color: cadetblue;
-    text-align: center;
-    padding: 80px;
+    background-color: #E5E7EB;
+    text-align:left;
+    padding: 80px 280px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p:nth-child(2) {
+    text-align: right;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    color: #1F2937;
 }
 
 .banner {
     display: flex;
-    flex-direction: column;
-    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
     margin: 60px 300px;
     padding: 40px 80px;
-    border: solid;
+    border-radius: 10px;
 }
 
-.banner p {
-    width: fit-content;
-    border: solid;
+.banner div { 
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.banner p:nth-child(2) {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #D0D4DD;
 }
 
 .banner button {
-    /*comment*/  
+    background-color: #3882F6;
+    border: #F9FAF8 solid;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #F9FAF8;
 }
 
 footer {
-    background-color: coral;
+    background-color: #1F2937;
     text-align: center;
     padding: 40px 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #D0D4DD;
 }
